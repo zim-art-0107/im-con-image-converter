@@ -1,0 +1,41 @@
+/* Admin dashboard styling for IM.CON */
+.im-con-dashboard {
+    margin-top: 20px;
+}
+.im-con-dropzone {
+    border: 2px dashed #0073aa;
+    padding: 30px;
+    text-align: center;
+    background: #f9f9f9;
+    transition: background 0.3s, border-color 0.3s;
+    margin-bottom: 20px;
+}
+.im-con-dropzone.dragover {
+    background: #e6f7ff;
+    border-color: #00a0d2;
+}
+.im-con-dropzone p {
+    margin: 0 0 10px;
+    font-size: 1.1em;
+    color: #555;
+}
+.im-con-preview {
+    margin-top: 20px;
+}
+.im-con-preview-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    background: #fff;
+}
+.im-con-shortcode-box {
+    width: 100%;
+    padding: 8px;
+    font-family: monospace;
+    background: #fafafa;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
