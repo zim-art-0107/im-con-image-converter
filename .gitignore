@@ -1,0 +1,20 @@
+# WordPress plugin gitignore
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore OS temporary files
+*.log
+*.tmp
+
+# Ignore IDE/editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore compiled files
+*.class
+
+# Ignore node/npm if ever added
+node_modules/
